@@ -1,0 +1,81 @@
+body {
+    margin:  5px 0px 0px 0px;
+}
+.croix {
+    background-image: url("croix.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+.cercle {
+    background-image: url("cercle.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+.container-grille {
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+}
+.colonne1-grille {
+    position: absolute;
+    margin: 0px;
+    width: 33.3333%;
+}
+.grille1 {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+.grille4 {
+    position: relative;
+    top: 33.3333%;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+.grille7 {
+    position: relative;
+    top: 66.6666%;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+.colonne2-grille {
+    position: absolute;
+    margin: 0px;
+    left: 33.3333%;
+    width: 33.3333%;
+}
+.colonne3-grille {
+    position: absolute;
+    margin: 0px;
+    left: 66.6666%;
+    width: 33.3333%;
+}
+.victory_box {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(179, 179, 179);
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.reset_button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    visibility: hidden;
+}
